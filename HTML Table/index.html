@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <!---CSS-->
+    <style>
+        h2{
+            padding-top: 200px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        table{
+            padding-top: 240px;
+            margin-left: 40%;
+        }
+        table,th,td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 15px;
+        }
+        td{
+            height: 5px;
+            width: 30px;
+        }
+        .td3{
+            height: 40px;
+            width: 110px;
+        }
+        p{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h2>Table</h2>
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <td class="td3" colspan="2"></td>
+            
+        </tr>
+        <tr>
+            <!--<td></td>-->
+            <!--<td></td>
+            <td colspan="2"></td>-->
+          </tr>
+          
+          <tr>
+            <td class="td3" colspan="2", rowspan="2"></td>
+            <!--<td ></td>-->
+            <td colspan="2"></td>          
+        </tr>
+
+        <tr>
+            <!--<td colspan="2"></td>-->
+        </tr> 
+      </table>
+      <p>Design By: Raihan Islam Sonet</p>
+</body>
+</html>
